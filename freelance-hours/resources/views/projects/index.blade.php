@@ -1,3 +1,5 @@
-<a href="{{route('project.show', 1)}}">
-  Primeiro projeto
+<a href="{{route('projects.show', 1)}}">
+  Primeiro Projeto
 </a>
+
+<livewire:projects.index>

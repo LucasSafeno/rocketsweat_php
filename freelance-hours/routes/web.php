@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'projects.index')->name('project.index');
+Route::view('/', 'projects.index')->name('projects.index');
 
-Route::view('/project/{project}', 'projects.show')->name('project.show');
+Route::view('/project/{project}', 'projects.show')->name('projects.show');
